@@ -1,0 +1,6 @@
+Voice Recognition Application:
+                This Application is capable of understanding the exact words said by the user and check the word with the audio saved in the file as "stored_voice.wav". This code creates a comparison between the two audios: the stored audio and the runtime audio. The audios are sent to a framedata which allows the code to create a correlation with the two voices on the full mode. A threshold is set to define the fine quality on which the two audios. This threshold creates a final end point till if which the detected/runtime audio couldn't reach it would simply destroy otherwise the code would reach it's next stage of facial recognition application.
+Face Recognition Application:
+                This Application consists of three different parts, the first part creates a sample of multiple pictures and saves them on the system for further investigation. The second part of the code is Model Trainer, this model trainer trains the pictures saved into the system and converts them into a trained data in form of decimal integars. The last step of this code is capable of taking a single itrated photo and testing that photo against the trained photo data
+On Source Code About:
+                

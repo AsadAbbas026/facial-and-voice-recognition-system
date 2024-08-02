@@ -1,0 +1,8 @@
+Firstly in this application, single audio voice is recorded and stored in the system for comparing two audioes.
+Secondly, I compare the audio taken on run-time and audio stored in the system.
+Once the runtime audio gets somewhat close to the threshold of the previously stored audio.
+The secondary security measure gets awake on point
+Face Recognition Application gets into action.
+Sample of 10 pictures with multiple indexes is taken at a single execution. Afterwards the pictures are taken to a model trainer and saved into haarcascade_frontalface_default.xml file and then trained on its rules.
+Afterwards the Facial Recognition Application works on the pictures only one those which are already sent to the model trainer.
+This is the method of security used for any application.
